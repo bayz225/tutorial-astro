@@ -12,14 +12,31 @@ npm create astro@latest -- --template minimal
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside of this Astro project, you'll see the following folders and files:
 
 ```text
 /
 ├── public/
 ├── src/
+│   └── components/
+│       └── Header.astro
+│       └── Hamburger.astro
+│       └── Navigation.astro
+│       └── Social.astro
+│       └── Footer.astro
 │   └── pages/
+│       └── posts/
+│           └── post-1.md
+│           └── post-2.md
+│           └── post-3.md
 │       └── index.astro
+│       └── about.astro
+│       └── blog.astro
+│   └── styles/
+│       └── css/
+│           └── gobal.css
+|       └── js/
+│           └── menu.js
 └── package.json
 ```
 
