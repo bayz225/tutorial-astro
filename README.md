@@ -19,19 +19,16 @@ Inside of this Astro project, you'll see the following folders and files:
 ├── public/
 ├── src/
 │   └── components/
-│       └── Header.astro
-│       └── Hamburger.astro
-│       └── Navigation.astro
-│       └── Social.astro
-│       └── Footer.astro
+│   └── layouts/
 │   └── pages/
 │       └── posts/
-│           └── post-1.md
-│           └── post-2.md
-│           └── post-3.md
+│       └── tags/
+│           └── [tag].astro
+│           └── index.astro
 │       └── index.astro
 │       └── about.astro
 │       └── blog.astro
+│       └── rss.xml.js
 │   └── styles/
 │       └── css/
 │           └── gobal.css
